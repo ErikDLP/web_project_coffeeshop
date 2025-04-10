@@ -11,3 +11,36 @@
   background-color: #ffffff;
   color: black;
 }
+
+.nav__logo {
+  position: relative;
+}
+
+.nav__links {
+}
+.header__content {
+  display: flex;
+}
+
+.header__span-accent {
+  display: flex;
+  color: #2f80ed;
+}
+
+.header__description {
+  display: flex;
+  max-width: 683px;
+}
+
+.header__image {
+  position: absolute;
+  height: 646px;
+  width: 548px;
+}
+.header__footer {
+}
+
+.header__footer_list {
+}
+.header__footer_list-item {
+}
