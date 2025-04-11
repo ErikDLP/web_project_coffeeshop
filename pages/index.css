@@ -10,6 +10,10 @@
 .header {
   background-color: #ffffff;
   color: black;
+  background-image: url(../images/background_header.svg);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
 }
 
 .nav__logo {
