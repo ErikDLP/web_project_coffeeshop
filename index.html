@@ -13,7 +13,7 @@
       name="keywords"
       content="Cafeteria, café, estilo, comunidad, coffee-lovers"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,7 +41,7 @@
               <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li>
-              <a href="#contactos" class="nav__link">Contactos</a>
+              <a href="#footer" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -180,14 +180,47 @@
               <label
                 class="form__label form__label_direction_right"
                 for="checkbox"
-                >Acepto los términos de uso
+                >Acepto los términos de uso*
               </label>
             </fieldset>
           </form>
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div calss="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="logo cafeteria footer"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer_social-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="white logo Facebook"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="white logo instagram_white"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="footer__copyright">© 2025 Erik DLP</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
